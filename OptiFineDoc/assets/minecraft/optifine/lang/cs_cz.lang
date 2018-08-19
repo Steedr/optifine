@@ -28,24 +28,24 @@ of.message.shaders.aa2=Jdi do nastavení kvality -> antialiasing na NE a restart
 of.message.shaders.af1=Stíny nejsou kompatibilní s anizotropním filtrováním.
 of.message.shaders.af2=Jdi do nastavení kvality -> anizotropní filtrování na NE.
 
-of.message.shaders.fr1=Stíny nejsou komoatibilní s rychlým renderem.
+of.message.shaders.fr1=Stíny nejsou kompatibilní s rychlým renderem.
 of.message.shaders.fr2=Jdi do nastavení výkonu -> rychlý render na NE.
 
 of.message.shaders.an1=Stíny nejsou kompatibilní se 3D zobrazením.
 of.message.shaders.an2=Jdi do nastavení ostatního -> 3D zobrazení na NE.
 
 of.message.shaders.nv1=Tento balíček stínů vyžaduje novější verzi OptiFine: %s
-of.message.shaders.nv2=Jseš si jist, že chceš pokračovat?
+of.message.shaders.nv2=Jsi si jist, že chceš pokračovat?
 
 of.message.newVersion=Nová verze §eOptiFinu§f je k dispozici: §e%s§f
-of.message.java64Bit=Můžeš si nainstalovat  §e64-bitovou Javu§f pro zvýšení výkonu.
+of.message.java64Bit=Můžeš si nainstalovat §e64-bitovou Javu§f pro zvýšení výkonu.
 of.message.openglError=§eChyba OpenGL§f: %s (%s)
 
 of.message.shaders.loading=Načítám stíny: %s
 
-of.message.other.reset=Vyresetovat všechno nastavení videa (grafiky) na výchozí hodnoty?
+of.message.other.reset=Resetovat všechna nastavení videa (grafiky) na výchozí hodnoty?
 
-of.message.loadingVisibleChunks=Načítám vididetlné chunky
+of.message.loadingVisibleChunks=Načítám viditelné chunky
 
 # Úprava skinu
 
@@ -73,7 +73,7 @@ options.renderDistance.tooltip.3=  8 Normální - 128m (normální)
 options.renderDistance.tooltip.4=  16 Velký - 256m (pomalejší)
 options.renderDistance.tooltip.5=  32 Extrémní - 512m (nejpomalejší!) velmi výkonově náročné
 options.renderDistance.tooltip.6=  48 Šílený - 768m, potřebuje 2 GB přidělené RAM
-options.renderDistance.tooltip.7=  64 Neuvěřitelný - 1024m,  potřebuje 3 GB přidělené RAM
+options.renderDistance.tooltip.7=  64 Neuvěřitelný - 1024m, potřebuje 3 GB přidělené RAM
 options.renderDistance.tooltip.8=Hodnoty nad 16 Velká jsou pouze pro lokální světy.
 
 options.ao.tooltip.1=Vyhlazené stíny
@@ -131,7 +131,7 @@ of.options.FOG_FANCY.tooltip.1=Typ mlhy
 of.options.FOG_FANCY.tooltip.2=  Rychlá - rychlejší mlha
 of.options.FOG_FANCY.tooltip.3=  Pěkná - pomalejší mlha, vypadá pěkněji
 of.options.FOG_FANCY.tooltip.4=  NE - žádná mlha, rychlejší
-of.options.FOG_FANCY.tooltip.5=Pěkná mlha se aktivuje jen když je podporována
+of.options.FOG_FANCY.tooltip.5=Pěkná mlha se aktivuje, jen když je podporována
 of.options.FOG_FANCY.tooltip.6=grafickými ovladači.
 
 of.options.FOG_START=Začátek mlhy
@@ -171,9 +171,9 @@ of.options.shaders.NORMAL_MAP=Normální mapa
 of.options.shaders.NORMAL_MAP.tooltip.1=Normální mapa
 of.options.shaders.NORMAL_MAP.tooltip.2=  ANO - zapne normální mapy (výchozí)
 of.options.shaders.NORMAL_MAP.tooltip.3=  NE - vypne normální mapy
-of.options.shaders.NORMAL_MAP.tooltip.4=Normální mapy mohou být použity balíčekem stínů
+of.options.shaders.NORMAL_MAP.tooltip.4=Normální mapy mohou být použity balíčkem stínů
 of.options.shaders.NORMAL_MAP.tooltip.5=na simulování 3D geometrie na rovných plochách.
-of.options.shaders.NORMAL_MAP.tooltip.6=Textury normálních map záleži na aktuálním
+of.options.shaders.NORMAL_MAP.tooltip.6=Textury normálních map záleží na aktuálním
 of.options.shaders.NORMAL_MAP.tooltip.7=balíčku zdrojů.
 
 of.options.shaders.SPECULAR_MAP=Spekulární mapa
@@ -187,7 +187,7 @@ of.options.shaders.SPECULAR_MAP.tooltip.7=na aktuálním balíčku zdrojů.
 
 of.options.shaders.RENDER_RES_MUL=Kvalita renderu
 of.options.shaders.RENDER_RES_MUL.tooltip.1=Kvalita renderu
-of.options.shaders.RENDER_RES_MUL.tooltip.2=  0.5x - malá (nejrychlehjší)
+of.options.shaders.RENDER_RES_MUL.tooltip.2=  0.5x - malá (nejrychlejší)
 of.options.shaders.RENDER_RES_MUL.tooltip.3=  1x - standardní (výchozí)
 of.options.shaders.RENDER_RES_MUL.tooltip.4=  2x - vysoká (nejpomalejší)
 of.options.shaders.RENDER_RES_MUL.tooltip.5=Render kvalita ovládá velikost textury
@@ -210,7 +210,7 @@ of.options.shaders.HAND_DEPTH_MUL.tooltip.1=Hloubka ruky
 of.options.shaders.HAND_DEPTH_MUL.tooltip.2=  0.5x - ruka přímo u kamery
 of.options.shaders.HAND_DEPTH_MUL.tooltip.3=  1x - (výchozí)
 of.options.shaders.HAND_DEPTH_MUL.tooltip.4=  2x - ruka daleko od kamery
-of.options.shaders.HAND_DEPTH_MUL.tooltip.5=Hlubka ruky ovládá, jak jsou objekty v ruce a ruka
+of.options.shaders.HAND_DEPTH_MUL.tooltip.5=Hloubka ruky ovládá, jak jsou objekty v ruce a ruka
 of.options.shaders.HAND_DEPTH_MUL.tooltip.6=samotná daleko od kamery.
 of.options.shaders.HAND_DEPTH_MUL.tooltip.7=Pro balíčky stínu, které používají rozmazání
 of.options.shaders.HAND_DEPTH_MUL.tooltip.8=by tohle mohlo zabránit rozmazání ruky.
@@ -233,15 +233,15 @@ of.options.shaders.OLD_LIGHTING.tooltip.3=  ANO - použít staré osvětlení
 of.options.shaders.OLD_LIGHTING.tooltip.4=  NE - nepoužívat staré osvětlení
 of.options.shaders.OLD_LIGHTING.tooltip.5=Staré osvětlení ovládá světlo, které
 of.options.shaders.OLD_LIGHTING.tooltip.6=Minecraft dává na strany bloků.
-of.options.shaders.OLD_LIGHTING.tooltip.7=Balíčky stínů, které stíny používají často mají
+of.options.shaders.OLD_LIGHTING.tooltip.7=Balíčky stínů, které stíny používají, mají často
 of.options.shaders.OLD_LIGHTING.tooltip.8=mnohem lepší osvětlení závisející na pozici slunce.
 
 of.options.shaders.DOWNLOAD=Stáhnout stíny
 of.options.shaders.DOWNLOAD.tooltip.1=Stáhnout stíny (shadery)
 of.options.shaders.DOWNLOAD.tooltip.2= 
 of.options.shaders.DOWNLOAD.tooltip.3=Otevře stránku balíčků stínů v internetovém prohlížeči.
-of.options.shaders.DOWNLOAD.tooltip.4=Dej stáhnuté balíčky do "složký stínů"
-of.options.shaders.DOWNLOAD.tooltip.5=a ony se pak objeví v seznmu instalovaných stínů.
+of.options.shaders.DOWNLOAD.tooltip.4=Dej stáhnuté balíčky do "složky stínů"
+of.options.shaders.DOWNLOAD.tooltip.5=a ony se pak objeví v seznamu instalovaných stínů.
 
 of.options.shaders.SHADER_PACK=Balíček stínů (shader pack)
 
@@ -271,7 +271,7 @@ of.shaders.profile=Profil
 
 # Kvalita
 
-of.options.mipmap.bilinear=Bilineání
+of.options.mipmap.bilinear=Bilineární
 of.options.mipmap.linear=Lineární
 of.options.mipmap.nearest=Nejbližší
 of.options.mipmap.trilinear=Trilineární
@@ -298,15 +298,15 @@ of.options.AA_LEVEL.tooltip.2= NE - (výchozí) žádný Antialiasing (rychlé)
 of.options.AA_LEVEL.tooltip.3= 2-16 - vyhlazené hrany a linie (pomalé)
 of.options.AA_LEVEL.tooltip.4=Antialiasing vyhlazuje rozviklané hrany a
 of.options.AA_LEVEL.tooltip.5=přechody ostrých barev.
-of.options.AA_LEVEL.tooltip.6=Pokud je na ANO, může výrazně zmenší FPS.
+of.options.AA_LEVEL.tooltip.6=Pokud je na ANO, může výrazně zmenšit FPS.
 of.options.AA_LEVEL.tooltip.7=Ne všechny úrovně jsou podporované všemi grafickými kartami.
 of.options.AA_LEVEL.tooltip.8=Efektivní po RESTARTU!
 
-of.options.AF_LEVEL=Antizotropní filtrování
-of.options.AF_LEVEL.tooltip.1= Antizotropní filtrování
+of.options.AF_LEVEL=Anizotropní filtrování
+of.options.AF_LEVEL.tooltip.1= Anizotropní filtrování
 of.options.AF_LEVEL.tooltip.2= NE - (výchozí) standartní detaily textur (rychlé)
 of.options.AF_LEVEL.tooltip.3= 2-16 - lepší detaily v mipmapovaných texturách (pomalé)
-of.options.AF_LEVEL.tooltip.4= Antizotropní Filtrování obnoví všechny detaily v
+of.options.AF_LEVEL.tooltip.4= Anizotropní Filtrování obnoví všechny detaily v
 of.options.AF_LEVEL.tooltip.5=mipmapovaných texturách.
 of.options.AF_LEVEL.tooltip.6=Pokud je na ANO, výrazně sníží FPS.
 
@@ -361,7 +361,7 @@ of.options.SMOOTH_BIOMES.tooltip.2=  ANO - vyhlazování hranic biomů (výchoz�
 of.options.SMOOTH_BIOMES.tooltip.3=  NE - žádné vyhlazování hranic biomů, rychlejší
 of.options.SMOOTH_BIOMES.tooltip.4=Vyhlazování hranic biomů je uděláno vzorkováním
 of.options.SMOOTH_BIOMES.tooltip.5=a průměrováním barev všech sousedících bloků.
-of.options.SMOOTH_BIOMES.tooltip.6=Ovlivňuje trávník, listí, lijány a vodu.
+of.options.SMOOTH_BIOMES.tooltip.6=Ovlivňuje trávník, listí, liány a vodu.
 
 of.options.CONNECTED_TEXTURES=Spojené textury
 of.options.CONNECTED_TEXTURES.tooltip.1=Spojené textury
@@ -526,7 +526,7 @@ of.options.DYNAMIC_FOV.tooltip.5=nebo při natahování luku.
  
 of.options.DYNAMIC_LIGHTS=Dynamické světla
 of.options.DYNAMIC_LIGHTS.tooltip.1=Dynamické světla
-of.options.DYNAMIC_LIGHTS.tooltip.2=  NE - žádná dynamícká světla (výchozí)
+of.options.DYNAMIC_LIGHTS.tooltip.2=  NE - žádná dynamická světla (výchozí)
 of.options.DYNAMIC_LIGHTS.tooltip.3=  Rychlá - rychlá dynamická světla (aktualizace každých 500ms)
 of.options.DYNAMIC_LIGHTS.tooltip.4=  Pěkná - pěkná dynamická světla (aktualizováno vždy)
 of.options.DYNAMIC_LIGHTS.tooltip.5=Pokud je ANO a v ruce, na zemi nebo v ruce
@@ -553,7 +553,7 @@ of.options.FAST_RENDER=Rychlý render
 of.options.FAST_RENDER.tooltip.1=Rychlý render
 of.options.FAST_RENDER.tooltip.2= NE - standardní render
 of.options.FAST_RENDER.tooltip.3= ANO - vyvážený render (rychlejší)
-of.options.FAST_RENDER.tooltip.4=Používáním vyváženěho renderovacího algoritmu se může snížít
+of.options.FAST_RENDER.tooltip.4=Používáním vyváženého renderovacího algoritmu se může snížit
 of.options.FAST_RENDER.tooltip.5=využití GPU, což může zvýšit FPS.
 of.options.FAST_RENDER.tooltip.6=Toto nastavení může vytvořit konflikt s některými módy.
 
@@ -594,7 +594,7 @@ of.options.RENDER_REGIONS.tooltip.1=Render regiony
 of.options.RENDER_REGIONS.tooltip.2= NE - nepoužívat render regiony (výchozí)
 of.options.RENDER_REGIONS.tooltip.3= ANO - použít render regiony
 of.options.RENDER_REGIONS.tooltip.4=Render regiony umožní rychlejší render terénu při vyšších
-of.options.RENDER_REGIONS.tooltip.5=viditelných vzdálenostech. Efektivnějsí při zapnutém VBO.
+of.options.RENDER_REGIONS.tooltip.5=viditelných vzdálenostech. Efektivnější při zapnutém VBO.
 
 of.options.SMART_ANIMATIONS=Chytré animace
 of.options.SMART_ANIMATIONS.tooltip.1=Chytré animace
@@ -663,17 +663,17 @@ of.options.TIME.tooltip.1=Čas
 of.options.TIME.tooltip.2= Výchozí - normální denní/noční cyklus
 of.options.TIME.tooltip.3= Pouze den - pouze den
 of.options.TIME.tooltip.4= Pouze noc - pouze noc
-of.options.TIME.tooltip.5=Nastavení času je efektivní jen v KREATIVNíM módu
+of.options.TIME.tooltip.5=Nastavení času je efektivní jen v KREATIVNÍM módu
 of.options.TIME.tooltip.6=a pro lokální světy.
 
 options.fullscreen.tooltip.1=Fullscreen
-options.fullscreen.tooltip.2=  ANO - použít celoobrázkový mód
+options.fullscreen.tooltip.2=  ANO - použít celoobrazový mód
 options.fullscreen.tooltip.3=  NE - použít mód v okně
 options.fullscreen.tooltip.4=Fullscreen mód může být rychlejší nebo pomalejší než
 options.fullscreen.tooltip.5=mód v okně, záleží na GPU.
 
 of.options.FULLSCREEN_MODE=Fullscreen mód
-of.options.FULLSCREEN_MODE.tooltip.1=Celoobrázkový mód
+of.options.FULLSCREEN_MODE.tooltip.1=Celoobrazový mód
 of.options.FULLSCREEN_MODE.tooltip.2=  Výchozí - používá hlavní rozlišení, pomalejší
 of.options.FULLSCREEN_MODE.tooltip.3=  ŠxV - používá vlastní rozlišení, může být rychlejší
 of.options.FULLSCREEN_MODE.tooltip.4=Vybrané rozlišení je používáno ve fullscreenu (F11).
@@ -695,7 +695,7 @@ of.options.save.30min=30min
 
 of.options.AUTOSAVE_TICKS=Auto-ukládání
 of.options.AUTOSAVE_TICKS.tooltip.1=Interval auto-ukládání
-of.options.AUTOSAVE_TICKS.tooltip.2=Výchozí interval auto-ukládání (2s) se NEDOPORUčUJE
+of.options.AUTOSAVE_TICKS.tooltip.2=Výchozí interval auto-ukládání (2s) se NEDOPORUČUJE
 of.options.AUTOSAVE_TICKS.tooltip.3=Auto-ukládání způsobuje slavné sekací smrti (Lag Spikes of Death).
 
 of.options.SCREENSHOT_SIZE=Velikost screenshotu
@@ -703,13 +703,13 @@ of.options.SCREENSHOT_SIZE.tooltip.1=Velikost snímku obrazovky
 of.options.SCREENSHOT_SIZE.tooltip.2=  Výchozí - výchozí velikost screenshotu
 of.options.SCREENSHOT_SIZE.tooltip.3=  2x-4x - vlastní velikost screenshotu
 of.options.SCREENSHOT_SIZE.tooltip.4=Focení větších screenshotů může vyžadovat více RAM.
-of.options.SCREENSHOT_SIZE.tooltip.5=Není kompatinilní s rychlým renderem a antialiasingem.
+of.options.SCREENSHOT_SIZE.tooltip.5=Není kompatibilní s rychlým renderem a antialiasingem.
 of.options.SCREENSHOT_SIZE.tooltip.6=Vyžaduje podporu GPU framebufferu.
 
 of.options.SHOW_GL_ERRORS=Zobrazit GL chyby
 of.options.SHOW_GL_ERRORS.tooltip.1=Zobrazit OpenGL chyby
 of.options.SHOW_GL_ERRORS.tooltip.2=Pokud nastaveno na ANO, OpenGL chyby se
-of.options.SHOW_GL_ERRORS.tooltip.3=budou objevovat v chatu. Vypni jen když je
+of.options.SHOW_GL_ERRORS.tooltip.3=budou objevovat v chatu. Vypni, jen když je
 of.options.SHOW_GL_ERRORS.tooltip.4=chyba známa a víš, že se nedá opravit.
 of.options.SHOW_GL_ERRORS.tooltip.5=Pokud NE, chyby jsou stále logovány v
 of.options.SHOW_GL_ERRORS.tooltip.6=error logu a mohou způsobit značný drop v FPS.
